@@ -1,0 +1,224 @@
+.navbar {
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar a {
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.navbar p {
+  padding-left: 2px;
+  padding-top: 13px;
+  color: black;
+}
+
+.sign {
+  margin-right: 10PX;
+  font-size: 15px;
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}
+
+
+
+.sign:hover {
+
+  background-color:gray;
+  color: black;
+}
+
+.subnav {
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  
+
+}
+
+.subnav .subnavbtn {
+  border-radius: 25px;
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.subnavbtn i{
+  margin-left: 1px;
+}
+.subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+#banner {
+  background-color: red;
+  padding: 20px 120px;
+}
+
+.wel {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.sub {
+  color: white;
+  line-height: 0.3;
+}
+
+.im {
+  padding-top: 0;
+  width: 450px;
+  height: 430px;
+}
+
+#banner1 {
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-top: 40px;
+}
+
+#banner .container i {
+  font-size: 25px;
+}
+
+.l1 {
+  line-height: 1px;
+  font-size: 12px;
+}
+
+#banner1 input[type=text] {
+  padding-bottom: 10px;
+  margin-left: 10px;
+  float: right;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  font-size: 17px;
+  width: 300px;
+}
+
+.al {
+  width: 250px;
+  margin-left: 10px;
+  background-color: lightgray;
+  border-radius: 25px;
+  margin-left: -4px;
+
+}
+.al:hover{
+  background-color: white;
+  padding: 0;
+}
+
+.al1 {
+  color: white;
+  margin-top: -30px;
+  width: 80px;
+  margin-left: 400px;
+  background-color: red;
+  border-radius: 25px;
+}
+.al1:hover{
+  color: black;
+  background-color: white;
+}
+
+
+.square-container1 {
+  background-color: white;
+  width: 200px;
+  height: auto;
+  padding: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 850px;
+  margin-top: -260px;
+}
+.square-container1 p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+.grid1 {
+
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.square-container {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-left: 135px;
+  margin-top: -250px;
+  width: 550px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-left: 60px;
+}
+
+
+.input-container {
+  position: relative;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.input-container i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.input-container input[type=text] {
+  width: 100%;
+  padding: 10px 10px 10px 30px;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  font-size: 10px;
+}
+.colored-letter{
+  color: red;
+  text-decoration: underline;
+}
+.h3{
+  font-size: 34px;
+  font-weight: bold;
+}
+.i1 i{
+  margin-left: 150px;
+
+}
